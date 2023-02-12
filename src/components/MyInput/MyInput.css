@@ -1,0 +1,40 @@
+.input-todo {
+    margin: 0.5rem 0;
+  }
+  
+  .input-todo label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 0.5rem;
+    font-size: 28px;
+  }
+  
+  .input-todo input {
+    display: block;
+    width: 100%;
+    border: 1px solid #ccc;
+    font: inherit;
+    line-height: 2.2rem;
+    padding: 0 0.25rem;
+  }
+  
+  .input-todo input:focus {
+    outline: none;
+    background: #fad0ec;
+  }
+  
+  .button {
+    margin-top: 0.5rem;
+    padding: 0.5rem 1rem;
+    border: 1px solid #063970;
+    background: #1e81b0;
+    color: white;
+    cursor: pointer;
+    border-radius: 15px;
+  }
+
+  .button:hover,
+  .button:active {
+    background: #76b5c5;
+    border-color: #76b5c5;
+  }
