@@ -5,8 +5,8 @@ import MyTodo2023 from './components/MyTodos/MyTodo2023/MyTodo2023'
 
 function App() {
   const [myTodos, haveMyTodos] = useState([
-    {id: 'abc', text: 'Be Successful Someday!'},
-    {id: '123', text: 'Own a Business!'},
+    // {id: 'abc', text: 'Be Successful Someday!'},
+    // {id: '123', text: 'Own a Business!'},
   ])
 
   const addSaveToListHandler = inputedText => {
